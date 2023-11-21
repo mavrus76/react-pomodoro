@@ -1,0 +1,4 @@
+.wrapper {
+  flex: 1 0 auto;
+  @apply container mx-auto lg:px-14 px-4;
+}

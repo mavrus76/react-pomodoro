@@ -1,0 +1,70 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+@import-normalize;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #333;
+  --white: #fff;
+  --blue: #336699;
+  --red: #cc3333;
+  --orange: #cc6633;
+  --green: #a4cc33;
+  --greyF3: #f3f3f3;
+  --greyF4: #f4f4f4;
+  --greyEC: #ececec;
+  --greyD9: #d9d9d9;
+  --greyC4: #c4c4c4;
+  --grey99: #999;
+  --grey66: #666;
+}
+
+html,
+body {
+  height: 100dvh;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  background-color: var(--greyF4);
+}
+body.dark {
+  color: var(--greyF3);
+  background-color: #00827f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

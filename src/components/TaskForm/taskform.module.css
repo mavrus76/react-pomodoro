@@ -1,0 +1,70 @@
+.wrapper {
+  flex: 1 1 50%;
+  min-width: 280px;
+  padding: 16px;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.legend {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.input {
+  height: 40px;
+  border-radius: 4px !important;
+  border-color: var(--greyD9) !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 32px;
+  appearance: none !important;
+  background-color: var(--greyEC) !important;
+  outline: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.input.dark {
+  background-color: var(--grey99) !important;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--greyF3);
+  appearance: none;
+  background-color: var(--blue) !important;
+  outline: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button > .icon {
+  @apply fill-slate-300 mr-1;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: var(--red);
+}

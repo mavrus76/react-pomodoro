@@ -1,0 +1,40 @@
+.wrapper {
+  flex: 1 1 50%;
+  min-width: 280px;
+  padding: 16px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.timer {
+  color: var(--red);
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+.count {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-1 rounded transition duration-300 ease-in-out;
+}
+
+.button > .icon {
+  @apply fill-slate-300;
+}

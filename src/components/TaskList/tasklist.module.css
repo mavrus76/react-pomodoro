@@ -1,0 +1,97 @@
+.wrapper {
+  flex: 1 1 50%;
+  min-width: 280px;
+  padding: 16px;
+}
+
+.task {
+  @apply border-b mb-2 transition-all duration-300 ease-in-out;
+}
+
+.form {
+  @apply flex flex-col mb-4 transition-all duration-300 ease-in-out;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.input {
+  appearance: none;
+  height: 40px;
+  border-radius: 4px !important;
+  border-color: var(--greyD9) !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 32px;
+  appearance: none !important;
+  background-color: var(--greyEC) !important;
+  outline: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.input.dark {
+  background-color: var(--grey99) !important;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--greyF3);
+  outline: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button_blue {
+  background-color: var(--blue) !important;
+}
+
+.button_red {
+  background-color: var(--orange) !important;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: var(--red);
+}
+
+.button > .icon {
+  @apply fill-slate-300;
+}
+
+.button > .icon_text {
+  @apply mr-1;
+}
+
+.done {
+  @apply bg-green-300;
+}
+
+.listItemEven,
+.listItemOdd {
+  display: flex;
+  align-items: center;
+}
+
+.listItemEven {
+  background-color: #f8f8f0;
+}

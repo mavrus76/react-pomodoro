@@ -1,0 +1,5 @@
+.wrapper {
+  flex: 1 1 100%;
+  min-width: 280px;
+  padding: 16px;
+}

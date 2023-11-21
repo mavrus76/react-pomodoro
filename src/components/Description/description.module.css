@@ -1,0 +1,17 @@
+.wrapper {
+  flex: 1 1 50%;
+  min-width: 280px;
+  padding: 16px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.list {
+  list-style-type: disc;
+  padding: 32px;
+}
